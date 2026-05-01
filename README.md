@@ -4,16 +4,23 @@ VoiceCommand é um sistema de execução de ações por voz com foco em baixa la
 
 ## Architecture
 
-- Reconhecimento de voz com pipeline local
-- Mapeamento de intents para ações do sistema
-- Execução direta sem intermediários
+- Pipeline de reconhecimento de voz com execução imediata
+- Mapeamento de intents para ações nativas do sistema
+- Execução direta sem camadas intermediárias
+- Estrutura leve com baixo overhead
 
 ## Decisions
 
-- Processamento local para reduzir latência e dependência externa
-- UX minimalista para interação rápida
-- Estrutura orientada a ações diretas
+- Processamento local para reduzir latência e eliminar dependência de rede
+- Execução direta para evitar gargalos de abstração
+- UX minimalista para reduzir fricção e tempo de ação
+- Arquitetura orientada a comandos, não a fluxos
 
 ## Download
 
 [Latest release](./releases)
+
+## Source
+
+O código fonte não é público.  
+Este repositório serve como distribuição oficial dos builds.
