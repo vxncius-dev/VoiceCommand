@@ -16,10 +16,6 @@ VoiceCommand é um sistema de execução de ações por voz com foco em baixa la
 - UX minimalista para reduzir fricção e tempo de ação
 - Arquitetura orientada a comandos, não a fluxos
 
-## Download
-
-[Latest release](./releases)
-
 ## Source
 
 O código fonte não é público.  
